@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OnlineTagGame", "OnlineTagGame\OnlineTagGame.vcxproj", "{B1531650-E594-4E54-B35A-FDDE7D30E56B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB} = {75CF4231-9393-44E3-B68F-40E3DFBF35CB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OnlineTagGameClient", "OnlineTagGameClient\OnlineTagGameClient.vcxproj", "{75CF4231-9393-44E3-B68F-40E3DFBF35CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Debug|x64.ActiveCfg = Debug|x64
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Debug|x64.Build.0 = Debug|x64
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Debug|x86.Build.0 = Debug|Win32
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Release|x64.ActiveCfg = Release|x64
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Release|x64.Build.0 = Release|x64
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Release|x86.ActiveCfg = Release|Win32
+		{B1531650-E594-4E54-B35A-FDDE7D30E56B}.Release|x86.Build.0 = Release|Win32
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Debug|x64.ActiveCfg = Debug|x64
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Debug|x64.Build.0 = Debug|x64
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Debug|x86.Build.0 = Debug|Win32
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Release|x64.ActiveCfg = Release|x64
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Release|x64.Build.0 = Release|x64
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Release|x86.ActiveCfg = Release|Win32
+		{75CF4231-9393-44E3-B68F-40E3DFBF35CB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30826EE2-F4ED-459F-980A-00CD67E23879}
+	EndGlobalSection
+EndGlobal
